@@ -32,6 +32,7 @@ describe('Material Playwright Page', () => {
   it("Register page with POM", () => {
     let registerPage = new RegisterPage();
     registerPage.navigateToRegisterPage();
+    debugger;
     registerPage.createNewInfo({
       usernane: "ngaquynh",
       email: "nga@gmail.com",
